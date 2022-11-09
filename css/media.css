@@ -1,0 +1,446 @@
+@media (max-width: 1400px) {
+    .container,
+    header,
+    footer {
+        padding-left: 90px;
+        padding-right: 90px;
+    }
+
+    .logo_link img {
+        margin-right: 0;
+    }
+
+    .call_btn {
+        margin-left: 25px;
+    }
+}
+
+@media (max-width: 1300px) {
+    .card-container_left {
+        width: 65%;
+    }
+
+    .card_last {
+        width: 37.5%;
+    }
+}
+
+@media (max-width: 1250px) {
+    .twoContent,
+    .why_us .whyUsContent {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .twoContCase {
+        width: 90%;
+        height: auto;
+    }
+}
+
+@media (max-width: 1200px) {
+    .nav {
+        flex-direction: column;
+    }
+
+    .nav-links {
+        margin: 10px 0 20px 0;
+    }
+
+    .oneBlock {
+        flex-direction: column-reverse;
+
+        padding-top: 40px;
+        padding-bottom: 40px;
+        margin-top: 30px;
+    }
+
+    .oneInfo {
+        margin-top: 15px;
+        width: 579px;
+    }
+}
+
+@media (max-width: 1180px) {
+    .container,
+    header,
+    footer {
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+
+    .threeBlock,
+    .why_us .whyUsContent {
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: 10px;
+    }
+
+    .sixBlockContent {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .sixContCase {
+        width: 90%;
+        height: auto;
+    }
+
+    .threeBlockCard {
+        width: 100%;
+        height: 100%;
+        padding: 30px 19px;
+
+        text-align: center;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .threeBlockCard img {
+        width: fit-content;
+        margin: auto;
+    }
+
+    .why_us2 .whyUsContent {
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: 10px;
+    }
+
+    .why_us2 .threeBlockCard {
+        padding: 20px;
+        width: 100%;
+        height: auto;
+    }
+
+    .why_us2 .threeBlockCard img {
+        justify-content: center;
+
+        text-align: center;
+
+        margin: 0;
+    }
+
+    .fourContent {
+        flex-direction: column;
+    }
+
+    .card-container_left,
+    .card_last {
+        width: 100%;
+    }
+
+    .card-container_left {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .card img,
+    .card p {
+        width: 430px;
+    }
+
+    .card img {
+        height: 230px;
+    }
+
+    .card_last {
+        margin-left: 0;
+        margin-top: 30px;
+    }
+
+    .card_last img {
+        width: 430px;
+        height: 500px;
+    }
+}
+
+@media (max-width: 1000px) {
+    .twoContent,
+    .why_us .whyUsContent,
+    .threeBlock,
+    .sixBlockContent {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .twoContCase {
+        margin-left: auto;
+        margin-right: auto;
+        width: 96.5%;
+    }
+
+    .sixContCase {
+        width: 97.5%;
+    }
+
+    .why_us2 .whyUsContent,
+    .card-container_left {
+        grid-template-columns: 1fr;
+    }
+
+    .card:not(.card:first-child) {
+        border-top: 2px dashed #4cb848;
+    }
+
+    .card {
+        padding: 15px 0;
+
+        text-align: center;
+    }
+
+    .card img, .card p {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .card .orderBtn {
+        margin: auto;
+    }
+
+    .card_last {
+        margin-top: 0;
+    }
+
+    .card-container_left {
+        grid-gap: 0;
+    }
+
+    .why_us2 .threeBlockCard {
+        width: 500px;
+        margin: auto;
+    }
+
+    .container {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    .cardCont {
+        flex-direction: column;
+    }
+
+    .cardMaps {
+        margin-right: 0;
+        width: 100%;
+    }
+
+    .cardInfo {
+        width: 100%;
+        margin-top: 15px;
+    }
+
+    .cardInfo p,
+    .cardInfo h6 {
+        text-align: center;
+
+        margin: auto;
+    }
+
+    .logoTel {
+        justify-content: center;
+    }
+
+    .cardInfo h2 {
+        text-align: center;
+    }
+
+    .cardInfo .orderBtn {
+        margin: auto;
+    }
+
+    .cardCont .cardImg {
+        margin-right: 0;
+        width: 100%;
+        height: 420px;
+    }
+}
+
+@media (max-width: 850px) {
+    .sixContCase img {
+        width: 100%;
+    }
+}
+
+@media (max-width: 700px) {
+    .cardMaps {
+        height: 400px;
+    }
+}
+
+@media (max-width: 630px) {
+    .logo_link img {
+        height: 50px;
+    }
+
+    .nav .nav_link,
+    .call_btn,
+    .dropdown {
+        font-size: 13px;
+    }
+
+    .nav .nav_link:not(.nav .nav_link:last-child) {
+        margin-right: 0;
+    }
+
+    .nav-links {
+        display: flex;
+        flex-direction: column;
+
+        text-align: center;
+
+        margin-bottom: 0;
+    }
+
+    .call_btn {
+        display: block;
+
+        margin-left: 0;
+    }
+
+    .nav-footer {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .dropdown {
+        margin: 0 auto 5px auto;
+    }
+
+    .oneBlock {
+        margin-top: 0;
+    }
+
+    .oneImgLeft {
+        display: none;
+    }
+
+    .oneImg img {
+        width: 290px;
+        margin: auto;
+    }
+
+    .oneInfo {
+        width: 100%;
+
+        text-align: center;
+    }
+
+    .oneInfo p {
+        margin: 13px 0 20px;
+    }
+
+    h1,
+    h2 {
+        font-size: 30px;
+        text-align: center;
+    }
+
+    h2 {
+        margin-bottom: 20px;
+    }
+
+    .threeBlock,
+    .why_us .whyUsContent {
+        grid-template-columns: 1fr;
+    }
+
+    .threeBlockCard {
+        width: 355px;
+        margin: auto;
+    }
+
+    .siteLink {
+        margin-bottom: 20px;
+    }
+
+    .cardCont .cardImg img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .cardCont .cardImg {
+        height: 325px;
+        width: 440px;
+    }
+}
+
+@media (max-width: 600px) {
+    header {
+        padding: 15px 115px;
+    }
+
+    .twoContent,
+    .sixBlockContent {
+        grid-template-columns: 1fr;
+    }
+
+    .twoContCase {
+        width: 350px;
+    }
+
+    .why_us2 .threeBlockCard {
+        width: 100%;
+        margin: auto;
+    }
+}
+
+@media (max-width: 500px) {
+    .card img, .card p {
+        width: 100%;
+    }
+
+    .body__form {
+        width: 95%;
+        height: 380px;
+    }
+
+    .body__form h3 {
+        font-size: 21px;
+    }
+
+    .body__form p {
+        margin-bottom: 5px;
+    }
+
+    .body__form input {
+        padding: 12px;
+    }
+
+    .body__form p,
+    .body__form input,
+    .body__form button {
+        font-size: 13px;
+    }
+
+    .cardMaps {
+        height: 325px;
+    }
+
+    .cardCont .cardImg {
+        height: 275px;
+        width: 270px;
+    }
+
+    .siteLink a {
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 410px) {
+    .card img {
+        width: 100%;
+        height: auto;
+    }
+
+    .card_last img {
+        height: 365px;
+    }
+}
+
+@media (max-width: 400px) {
+    .twoContCase {
+        width: 100%;
+    }
+
+    .threeBlockCard {
+        width: 100%;
+        margin: auto;
+    }
+}
